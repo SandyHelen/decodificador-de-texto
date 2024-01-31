@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador de Texto</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="./images/texting-34417_1280.png" id="header-image">
+    </header>
+
+    <main class="container">
+        <section class="cryptography-area">
+            <textarea name="" id="" cols="60" rows="20" class="text-space" placeholder="DIGITE SEU TEXTO..."></textarea>
+
+            <div class="container__alert">
+                <img src="./images/exclamation-350198_1280.png" alt="" class="container__alert__image">
+                <P class="container__alert__paragrapher">Apenas letras minúsculas e sem acento</P>
+            </div>
+            <div class="buttons">
+                <button id="cryptography-button" onclick="cryptography()">Criptografar</button>
+                <button id="descryptography-button" onclick="descryptography()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="cryptography-result">
+            <img src="./images/search-97587_1280.png" alt="Desenho de uma lupa" class="result-area-image">
+
+            <div class="result-area">
+                <h3 class="result-area__title">NENHUMA MENSAGEM ENCONTRADA</h3>
+                <p class="result-area__p">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+
+            <button id="copy" onclick="copyText()">Copiar</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Sandy Helen</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
