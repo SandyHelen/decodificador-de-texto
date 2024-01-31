@@ -48,7 +48,6 @@ function getTextToEncrypt(){
 ////descriptografar
 
 function descryptography(){
-    //setResult(getTextToDecrypt());
     setResult(getTextToDecrypt());
     textArea[0].value = "";
 }
